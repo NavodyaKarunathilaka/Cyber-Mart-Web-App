@@ -1,0 +1,70 @@
+@charset "UTF-8";
+ body {
+            background-color: #000000; /* Black background */
+            color: #ffffff; /* White text */
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 20px;
+            background-color: #333333; /* Dark gray background for the container */
+            padding: 20px;
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+        }
+        h2 {
+            color: #ffa500; /* Orange heading */
+        }
+        .form-group {
+            margin-bottom: 15px; /* Add space between form groups */
+        }
+        label {
+            color: #b0b0b0; /* Light gray color for labels */
+        }
+        .form-control {
+            background-color: #808080; /* Gray input fields */
+            color: #ffffff; /* White text in input fields */
+            border: 1px solid #ffa500; /* Orange border */
+        }
+        .form-control:focus {
+            background-color: #666666; /* Darker gray on focus */
+            border-color: #ffa500; /* Orange border on focus */
+            box-shadow: none; /* Remove default shadow */
+        }
+        /* Button styling */
+        .btn-update, .btn-danger {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 30px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        
+        /* Gradient background for the Update button */
+        .btn-update {
+            background: linear-gradient(90deg, #ffa500, #ff4500); /* Gradient from orange to red */
+            border: none;
+            color: #fff;
+        }
+        
+        /* Hover effect for the Update button */
+        .btn-update:hover {
+            background: linear-gradient(90deg, #ffd700, #ff6347); /* Gold to tomato */
+            box-shadow: 0 8px 12px rgba(255, 99, 71, 0.5); /* Stronger shadow on hover */
+        }
+        
+        /* Gradient background for the Delete button */
+        .btn-danger {
+            background: linear-gradient(90deg, #ff4500, #dc3545); /* Red gradient */
+            border: none;
+            color: #fff;
+        }
+        
+        /* Hover effect for the Delete button */
+        .btn-danger:hover {
+            background: linear-gradient(90deg, #ff6347, #ff4500); /* Tomato red gradient */
+            box-shadow: 0 8px 12px rgba(220, 53, 69, 0.5); /* Stronger shadow on hover */
+        }
